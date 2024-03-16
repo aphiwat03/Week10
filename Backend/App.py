@@ -2,7 +2,7 @@ from pymongo.mongo_client import MongoClient
 from flask import Flask , jsonify , request
 from flask_cors import CORS
 
-uri = "mongodb+srv://thibetw:QZr03MVTKXQBWRw7@aik.dinjcpn.mongodb.net/?retryWrites=true&w=majority&appName=Aik"
+uri = "mongodb+srv://Beer35208:Beer35208@cluster0.tpdygsy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 try:
     client = MongoClient(uri)
     client.admin.command('ping')
